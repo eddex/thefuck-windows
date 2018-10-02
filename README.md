@@ -1,12 +1,12 @@
 # thefuck-windows
-Setup thefuck on windows
+Setup [nvbn/thefuck](https://github.com/nvbn/thefuck) on windows for PowerShell.
 
 ## Run the installation
 Prequisites: [install python and pip](https://www.python.org)
 
 Start PowerShell as Administrator
 
-Run `.\install.ps1`
+Run `.\install-powershell.ps1`
 
 ## Troubleshooting
 You may run into the following error:
@@ -20,7 +20,7 @@ At line:1 char:1
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
 To fix this you have 2 options:
-1. Run every command in `install.ps1` manually (copy paste).
+1. Run every command in `install-powershell.ps1` manually (copy paste).
 2. Change your execution policy.
     
     `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
