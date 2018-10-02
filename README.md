@@ -24,3 +24,6 @@ To fix this, change your execution policy:
 `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
 
 Change the execution policy for the current user, because it's also needed to load the `Microsoft.PowerShell_profile.ps1` script.
+
+## License
+This project is licensed under [GLWTPL](./LICENSE)
