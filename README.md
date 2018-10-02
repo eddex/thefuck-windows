@@ -19,10 +19,8 @@ At line:1 char:1
     + CategoryInfo          : SecurityError: (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
-To fix this you have 2 options:
-1. Run every command in `install-powershell.ps1` manually (copy paste).
-2. Change your execution policy.
+To fix this, change your execution policy:
     
     `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
 
-    Change the execution policy for the current user, because it is also needed to load the `Microsoft.PowerShell_profile.ps1` script.
+    Change the execution policy for the current user, because it's also needed to load the `Microsoft.PowerShell_profile.ps1` script.
