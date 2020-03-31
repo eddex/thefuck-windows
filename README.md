@@ -2,7 +2,7 @@
 Setup [nvbn/thefuck](https://github.com/nvbn/thefuck) on windows for PowerShell.
 
 ## Run the installation
-Prequisites: [install python and pip](https://www.python.org)
+Prequisites: Install python and pip from [python.org](https://www.python.org). Use the Download link to install the latest Python release. (Alternatively, if you already have an Anaconda distribution installed, you can enable pip from PowerShell by adding the Anaconda scripts folder to your path e.g. ```$ENV:PATH="$ENV:PATH;C:\ProgramData\Anaconda3.5.2.0\Scripts"```.)
 
 Start PowerShell as Administrator
 
